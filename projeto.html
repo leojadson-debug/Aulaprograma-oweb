@@ -40,10 +40,29 @@
       <p>Você pode apoiar nossos projetos com doações ou participando como voluntário.</p>
       <a href="cadastro.html" class="botao">Seja Voluntário</a>
     </section>
+
+    <!-- NOVA SEÇÃO ADICIONADA -->
+    <section id="cadastro-rapido">
+      <h2>Cadastro Rápido</h2>
+      <form>
+        <label>Nome:</label>
+        <input type="text" data-required>
+        <span class="erro"></span>
+
+        <label>Email:</label>
+        <input type="text" data-required data-type="email">
+        <span class="erro"></span>
+
+        <button>Enviar</button>
+      </form>
+    </section>
+    <!-- FIM DA NOVA SEÇÃO -->
   </main>
 
   <footer>
     <p>&copy; 2025 ONG Esperança Viva</p>
   </footer>
+
+  <script src="js/validacao.js"></script>
 </body>
 </html>
